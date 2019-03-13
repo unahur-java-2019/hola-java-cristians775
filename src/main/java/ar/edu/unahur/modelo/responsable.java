@@ -4,15 +4,14 @@ public class Semilla {
 
      int id;
      String nombre;
-     int anio;
-     boolean toleraSombra;
+     int edad;
 
-    Semilla( int _id,String _nombre, int _anio,boolean _toleraSombra,int origen_id){
+
+    Semilla( int _id,String _nombre, int _edad){
 
         id=_id;
         nombre=_nombre;
-        anio=_anio;
-        toleraSombra=_toleraSombra;
+        edad=_edad;
 
 
     }
